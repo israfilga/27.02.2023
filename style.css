@@ -1,0 +1,38 @@
+*{
+  background-color: aqua;
+}
+
+
+.container {
+  width: 800px;
+  height: 500px;
+  border: 1px solid orangered;
+  display: grid;
+  /* grid-template-areas:
+    "d b d",
+    "a b c",
+    "d b d"; */
+  grid-template-columns: 1fr 4fr 1fr;
+  gap: 10px;
+  margin: 80px;
+  padding: 80px;
+}
+.screen {
+  width: 600px;
+  height: 360px;
+}
+.back {
+  height: 50px;
+  width: 50px;
+  background: orange;
+}
+.next {
+  width: 50px;
+  height: 50px;
+  background: orange;
+}
+.picture {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
